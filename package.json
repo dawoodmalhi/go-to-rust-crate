@@ -1,6 +1,6 @@
 {
-  "name": "go-to-rust-crate",
-  "displayName": "GoToRustCrate",
+  "name": "open-rust-crate",
+  "displayName": "OpenRustCrate",
   "description": "",
   "version": "0.0.1",
   "engines": {
@@ -14,8 +14,8 @@
   "contributes": {
     "commands": [
       {
-        "command": "go-to-rust-crate.goToRustCrate",
-        "title": "Go To Rust Crate"
+        "command": "open-rust-crate.openRustCrate",
+        "title": "Open Rust Crate"
       }
     ]
   },

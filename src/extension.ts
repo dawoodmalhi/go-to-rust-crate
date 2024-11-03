@@ -10,7 +10,7 @@ const sanity = () => {
     }
   } catch(error: any) {
     console.error(error);
-    vscode.window.showErrorMessage(`Go To Rust Crate: ${error?.message}`);
+    vscode.window.showErrorMessage(`Open Rust Crate: ${error?.message}`);
     return false;
   }
   return true;
@@ -25,7 +25,7 @@ export function activate(context: vscode.ExtensionContext) {
 
   context.subscriptions.push(
     vscode.commands.registerCommand(
-      "go-to-rust-crate.goToRustCrate",
+      "open-rust-crate.openRustCrate",
       () => {
 
         const getDirectories = (folderPath: string) =>

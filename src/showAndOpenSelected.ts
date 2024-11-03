@@ -12,7 +12,7 @@ export const showAndOpenSelected = async (crates: { [key: string]: string }) => 
     open(selection, crates[selection]);
   } catch(error: any) {
     console.error(error);
-    vscode.window.showErrorMessage(`Go To Rust Crate: ${error.message}`);
+    vscode.window.showErrorMessage(`Open Rust Crate: ${error.message}`);
   }
 }; 
 

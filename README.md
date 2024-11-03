@@ -1,14 +1,14 @@
 <img src="logo.png" alt="logo" width="160"/>
 
-# Go To Rust Crate for VS Code
+# Open Rust Crate for VS Code
 
-This extension adds a "Rust Open Crate" command for Rust projects in VS Code. It scans all crates installed on your system, allowing you to pick any crate and open it in a new VS Code window. Perfect for quickly navigating and exploring dependencies of a rust project!
+This extension adds a "Open Rust Crate" command for Rust projects in VS Code. It scans all crates installed on your system, allowing you to pick any crate and open it in a new VS Code window. Perfect for quickly navigating and exploring dependencies of a rust project!
 
 ![](usage.gif)
 
 ## Installation & Troubleshooting
 
-In VS Code, open the Extensions view and search for **Go To Rust Crate**. Click Install to add the extension.
+In VS Code, open the Extensions view and search for **Open Rust Crate**. Click Install to add the extension.
 
 If you're having issues, ensure that Rust is installed on your system and that there are some crates already available.
 
