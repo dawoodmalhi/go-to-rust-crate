@@ -20,7 +20,7 @@ If you'd like to contribute, please start by creating an issue to discuss your i
 
 ## Changelog
 
-#### 0.1 - Nov 2024
+#### 0.0.1 - Nov 2024
 
 - Initial release
 
