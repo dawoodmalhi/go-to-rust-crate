@@ -1,71 +1,29 @@
-# go-to-rust-crate README
+<img src="logo.png" alt="logo" width="160"/>
 
-This is the README for your extension "go-to-rust-crate". After writing up a brief description, we recommend including the following sections.
+# Go To Rust Crate for VS Code
 
-## Features
+This extension adds a "Rust Open Crate" command for Rust projects in VS Code. It scans all crates installed on your system, allowing you to pick any crate and open it in a new VS Code window. Perfect for quickly navigating and exploring dependencies of a rust project!
 
-Describe specific features of your extension including screenshots of your extension in action. Image paths are relative to this README file.
+![](usage.gif)
 
-For example if there is an image subfolder under your extension project workspace:
+## Installation & Troubleshooting
 
-\!\[feature X\]\(images/feature-x.png\)
+In VS Code, open the Extensions view and search for **Go To Rust Crate**. Click Install to add the extension.
 
-> Tip: Many popular extensions utilize animations. This is an excellent way to show off your extension! We recommend short, focused animations that are easy to follow.
+If you're having issues, ensure that Rust is installed on your system and that there are some crates already available.
 
-## Requirements
 
-If you have any requirements or dependencies, add a section describing those and how to install and configure them.
+## Contributing
 
-## Extension Settings
+If you'd like to contribute, please start by creating an issue to discuss your ideas or proposed changes. Once we've had a chance to review and discuss, you’re welcome to begin working on your contribution.
 
-Include if your extension adds any VS Code settings through the `contributes.configuration` extension point.
 
-For example:
+## Changelog
 
-This extension contributes the following settings:
+#### 0.1 - Nov 2024
 
-* `myExtension.enable`: Enable/disable this extension.
-* `myExtension.thing`: Set to `blah` to do something.
+- Initial release
 
-## Known Issues
-
-Calling out known issues can help limit users opening duplicate issues against your extension.
-
-## Release Notes
-
-Users appreciate release notes as you update your extension.
-
-### 1.0.0
-
-Initial release of ...
-
-### 1.0.1
-
-Fixed issue #.
-
-### 1.1.0
-
-Added features X, Y, and Z.
 
 ---
-
-## Following extension guidelines
-
-Ensure that you've read through the extensions guidelines and follow the best practices for creating your extension.
-
-* [Extension Guidelines](https://code.visualstudio.com/api/references/extension-guidelines)
-
-## Working with Markdown
-
-You can author your README using Visual Studio Code. Here are some useful editor keyboard shortcuts:
-
-* Split the editor (`Cmd+\` on macOS or `Ctrl+\` on Windows and Linux).
-* Toggle preview (`Shift+Cmd+V` on macOS or `Shift+Ctrl+V` on Windows and Linux).
-* Press `Ctrl+Space` (Windows, Linux, macOS) to see a list of Markdown snippets.
-
-## For more information
-
-* [Visual Studio Code's Markdown Support](http://code.visualstudio.com/docs/languages/markdown)
-* [Markdown Syntax Reference](https://help.github.com/articles/markdown-basics/)
-
-**Enjoy!**
+This extension is licensed under the [MIT License](LICENSE).
